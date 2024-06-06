@@ -14,7 +14,7 @@ const AllData = {
     projects: [...Projects.personalProjects],
 };
 
-app.use("/image", express.static("image"));
+app.use(express.static("./public"));
 
 app.get("/", (req, res) => {
     if (AllData) {
