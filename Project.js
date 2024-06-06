@@ -8,7 +8,7 @@ const Projects = {
             name: "Punnaphat Netlify App",
             description: [
                 "A portfolio for storing my works and various information about myself.",
-                "This project is the webpage you are currently using.",
+                "This project is the webpage you are currently viewing.",
             ],
             image: [
                 {
@@ -27,8 +27,9 @@ const Projects = {
             pathname: "disclone",
             name: "Disclone webpage",
             description: [
-                "A clone of Discord webpage with the same ui as the original.",
-                "This is for practice only.",
+                "A clone of the Discord webpage, specifically the Front End. The UI will resemble the original.",
+                "The clone includes only the Home, Download, Nitro, Discover, Safety, and Career pages, it does not include the Discord App itself.",
+                "This project was created solely for practice purposes.",
             ],
             image: [
                 {
