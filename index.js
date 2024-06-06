@@ -11,8 +11,10 @@ app.use(express.json());
 
 const AllData = {
     blogs: [...Blogs],
-    projects: [...Projects],
+    projects: [...Projects.personalProjects],
 };
+
+app.use("/image", express.static("image"));
 
 app.get("/", (req, res) => {
     if (AllData) {
@@ -50,7 +52,7 @@ app.get("/projects", (req, res) => {
 
 app.get("/projects/:projectPathname", (req, res) => {
     const { projectPathname } = req.params;
-    const foundProject = Projects.find(
+    const foundProject = Projects.personalProjects.find(
         (project) => project.pathname === projectPathname
     );
     if (foundProject) {
