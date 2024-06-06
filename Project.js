@@ -1,42 +1,122 @@
-const Projects = [
-    {
-        id: 1,
-        pathname: "discord-clone-for-practice",
-        name: "Discord Clone for Practice",
-        description:
-            "A clone of Discord with the same features as the original.",
-        image: ["DiscordCover"],
-        technology: [
-            {
-                icon: "",
-                name: "React.js",
-            },
-            {
-                icon: "",
-                name: "Tailwind CSS",
-            },
-        ],
-        webURL: "https://discord-clone-for-practice.netlify.app/",
-        githubURL: "https://github.com/DungoKAT/Discord-Clone-for-Practice",
-        date: "May 25, 2024",
-    },
-    {
-        id: 2,
-        pathname: "midterm-exam",
-        name: "Midterm Exam",
-        description:
-            "Midterm Exam from Year 3 term 1. A re-design IT KMITL Web",
-        image: ["https://i.im.ge/2024/05/29/KIuVP8.DiscordCover.png"],
-        technology: [
-            {
-                icon: "",
-                name: "Vanilla",
-            },
-        ],
-        webURL: "https://www.google.com/",
-        githubURL: "https://github.com/DungoKAT",
-        date: "May 1, 2022",
-    },
-];
+const imageURL = "http://localhost:8080/image/";
+
+const Projects = {
+    personalProjects: [
+        {
+            id: 1,
+            pathname: "punnaphat-netlify-app",
+            name: "Punnaphat Netlify App",
+            description: [
+                "A portfolio for storing my works and various information about myself.",
+                "This project is the webpage you are currently using.",
+            ],
+            image: [
+                {
+                    name: "Home Page",
+                    cover: `${imageURL}PortfolioPunnaphat.png`,
+                    fullsize: `${imageURL}DiscordHomeFullSize.png`,
+                },
+            ],
+            technology: ["ReactJS", "Tailwind CSS", "Express"],
+            webURL: "https://www.google.com/",
+            githubURL: "https://github.com/DungoKAT/React-Portfolio",
+            date: "May 1, 2022",
+        },
+        {
+            id: 2,
+            pathname: "disclone",
+            name: "Disclone webpage",
+            description: [
+                "A clone of Discord webpage with the same ui as the original.",
+                "This is for practice only.",
+            ],
+            image: [
+                {
+                    name: "Home Page",
+                    cover: `${imageURL}DiscordHomeCover.png`,
+                    fullsize: `${imageURL}DiscordHomeFullSize.png`,
+                },
+                {
+                    name: "Download Page",
+                    cover: `${imageURL}DiscordDownloadCover.png`,
+                    fullsize: `${imageURL}DiscordDownloadFullSize.png`,
+                },
+                {
+                    name: "Nitro Page",
+                    cover: `${imageURL}DiscordNitroCover.png`,
+                    fullsize: `${imageURL}DiscordNitroFullSize.png`,
+                },
+                {
+                    name: "Discover Page",
+                    cover: `${imageURL}DiscordDiscoverCover.png`,
+                    fullsize: `${imageURL}DiscordDiscoverFullSize.png`,
+                },
+                {
+                    name: "Server Preview Page",
+                    cover: `${imageURL}DiscordServerPreviewCover.png`,
+                    fullsize: `${imageURL}DiscordServerPreviewFullSize.png`,
+                },
+                {
+                    name: "Safety Page",
+                    cover: `${imageURL}DiscordSafetyCover.png`,
+                    fullsize: `${imageURL}DiscordSafetyFullSize.png`,
+                },
+                {
+                    name: "Career Page",
+                    cover: `${imageURL}DiscordCareerCover.png`,
+                    fullsize: `${imageURL}DiscordCareerFullSize.png`,
+                },
+            ],
+            technology: ["ReactJS", "Tailwind CSS", "Express"],
+            webURL: "https://discord-clone-for-practice.netlify.app/",
+            githubURL: "https://github.com/DungoKAT/Discord-Clone-for-Practice",
+            date: "May 25, 2024",
+        },
+    ],
+    educationProjects: [],
+    miniWorkshops: [
+        {
+            name: "Dark Light Mode",
+            webURL: "https://dark-light-basic.netlify.app/",
+            githubURL: "https://github.com/DungoKAT/Dark-Light-Mode-React",
+        },
+        {
+            name: "Convert Currency",
+            webURL: "https://convert-currency-basic.netlify.app/",
+            githubURL: "https://github.com/DungoKAT/Convert-Currency-React",
+        },
+        {
+            name: "Weather App Basic",
+            webURL: "https://weather-app-basic-for-practice.netlify.app/",
+            githubURL: "https://github.com/DungoKAT/Weather-App-Basic",
+        },
+        {
+            name: "Todo List Basic",
+            webURL: "https://todo-list-basic-for-practice.netlify.app/",
+            githubURL: "https://github.com/DungoKAT/Todo-List-Basic",
+        },
+        {
+            name: "Quiz App",
+            webURL: "https://quiz-app-basic-for-practice.netlify.app/",
+            githubURL: "https://github.com/DungoKAT/Quiz-App",
+        },
+        {
+            name: "Image Carousel Basic",
+            webURL: "https://image-carousel-basic.netlify.app/",
+            githubURL: "https://github.com/DungoKAT/Image-Carousel-Basic",
+        },
+        {
+            name: "Shopping Cart Basic",
+            webURL: "https://shopping-cart-basic-for-practice.netlify.app/",
+            githubURL: "https://github.com/DungoKAT/Shopping-Cart-Basic",
+        },
+        {
+            name: "Search Dropdown Filter Basic",
+            webURL: "https://search-dropdown-filter-basic.netlify.app/",
+            githubURL:
+                "https://github.com/DungoKAT/Search-Dropdown-Filter-Basic",
+        },
+    ],
+};
 
 export default Projects;
