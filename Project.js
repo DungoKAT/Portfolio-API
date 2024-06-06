@@ -1,4 +1,4 @@
-const imageURL = "http://localhost:8080/image/";
+const imageURL = "https://portfolio-api-dungokats-projects.vercel.app/image/";
 
 const Projects = {
     personalProjects: [
