@@ -18,7 +18,6 @@ const Projects = {
                 },
             ],
             technology: ["ReactJS", "Tailwind CSS", "Express"],
-            webURL: "https://www.google.com/",
             githubURL: "https://github.com/DungoKAT/React-Portfolio",
             date: "May 1, 2022",
         },
