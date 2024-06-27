@@ -13,7 +13,7 @@ const Projects = {
             image: [
                 {
                     name: "Home Page",
-                    cover: `${imageURL}/Portfolio/PortfolioPunnaphat.png`,
+                    cover: `${imageURL}/portfolio/PortfolioPunnaphat.png`,
                 },
             ],
             technology: ["ReactJS", "Tailwind CSS", "Express"],
@@ -32,38 +32,38 @@ const Projects = {
             image: [
                 {
                     name: "Home Page",
-                    cover: `${imageURL}/DiscordClone/DiscordHomeCover.png`,
-                    fullsize: `${imageURL}/DiscordClone/DiscordHomeFullSize.png`,
+                    cover: `${imageURL}/discord-clone/DiscordHomeCover.png`,
+                    fullsize: `${imageURL}/discord-clone/DiscordHomeFullSize.png`,
                 },
                 {
                     name: "Download Page",
-                    cover: `${imageURL}/DiscordClone/DiscordDownloadCover.png`,
-                    fullsize: `${imageURL}/DiscordClone/DiscordDownloadFullSize.png`,
+                    cover: `${imageURL}/discord-clone/DiscordDownloadCover.png`,
+                    fullsize: `${imageURL}/discord-clone/DiscordDownloadFullSize.png`,
                 },
                 {
                     name: "Nitro Page",
-                    cover: `${imageURL}/DiscordClone/DiscordNitroCover.png`,
-                    fullsize: `${imageURL}/DiscordClone/DiscordNitroFullSize.png`,
+                    cover: `${imageURL}/discord-clone/DiscordNitroCover.png`,
+                    fullsize: `${imageURL}/discord-clone/DiscordNitroFullSize.png`,
                 },
                 {
                     name: "Discover Page",
-                    cover: `${imageURL}/DiscordClone/DiscordDiscoverCover.png`,
-                    fullsize: `${imageURL}/DiscordClone/DiscordDiscoverFullSize.png`,
+                    cover: `${imageURL}/discord-clone/DiscordDiscoverCover.png`,
+                    fullsize: `${imageURL}/discord-clone/DiscordDiscoverFullSize.png`,
                 },
                 {
                     name: "Server Preview Page",
-                    cover: `${imageURL}/DiscordClone/DiscordServerPreviewCover.png`,
-                    fullsize: `${imageURL}/DiscordClone/DiscordServerPreviewFullSize.png`,
+                    cover: `${imageURL}/discord-clone/DiscordServerPreviewCover.png`,
+                    fullsize: `${imageURL}/discord-clone/DiscordServerPreviewFullSize.png`,
                 },
                 {
                     name: "Safety Page",
-                    cover: `${imageURL}/DiscordClone/DiscordSafetyCover.png`,
-                    fullsize: `${imageURL}/DiscordClone/DiscordSafetyFullSize.png`,
+                    cover: `${imageURL}/discord-clone/DiscordSafetyCover.png`,
+                    fullsize: `${imageURL}/discord-clone/DiscordSafetyFullSize.png`,
                 },
                 {
                     name: "Career Page",
-                    cover: `${imageURL}/DiscordClone/DiscordCareerCover.png`,
-                    fullsize: `${imageURL}/DiscordClone/DiscordCareerFullSize.png`,
+                    cover: `${imageURL}/discord-clone/DiscordCareerCover.png`,
+                    fullsize: `${imageURL}/discord-clone/DiscordCareerFullSize.png`,
                 },
             ],
             technology: ["ReactJS", "Tailwind CSS", "Express"],
@@ -74,28 +74,28 @@ const Projects = {
         {
             id: 3,
             pathname: "tictactoe-online",
-            name: "Tictactoe Online",
+            name: "Tic-Tac-Toe Online",
             description: [
-                "Tictactoe online",
-                "The clone includes only the Home, Download, Nitro, Discover, Safety, and Career pages, it does not include the Discord App itself.",
-                "This project was created solely for practice purposes.",
+                "A Tic-Tac-Toe game that allows multiplayer gameplay with variable board sizes.",
+                "Includes a registration system with usernames and features that record game history and allow replays.",
+                "Players can choose between three board sizes: 3x3, 5x5, and 7x7.",
             ],
             image: [
                 {
                     name: "Gameplay",
-                    cover: `${imageURL}/TictactoeOnline/TictactoeGame.png`,
+                    cover: `${imageURL}/tictactoe-online/TictactoeGame.png`,
                 },
                 {
                     name: "Register Page",
-                    cover: `${imageURL}/TictactoeOnline/TictactoeRegister.png`,
+                    cover: `${imageURL}/tictactoe-online/TictactoeRegister.png`,
                 },
                 {
                     name: "Home Page",
-                    cover: `${imageURL}/TictactoeOnline/TictactoeHome.png`,
+                    cover: `${imageURL}/tictactoe-online/TictactoeHome.png`,
                 },
                 {
                     name: "Game History Page",
-                    cover: `${imageURL}/TictactoeOnline/TictactoeGameHistory.png`,
+                    cover: `${imageURL}/tictactoe-online/TictactoeGameHistory.png`,
                 },
             ],
             technology: [
