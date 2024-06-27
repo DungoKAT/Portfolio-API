@@ -13,7 +13,7 @@ const Projects = {
             image: [
                 {
                     name: "Home Page",
-                    cover: `${imageURL}/portfolio/PortfolioPunnaphat.png`,
+                    cover: `${imageURL}/my-portfolio/PortfolioPunnaphat.png`,
                 },
             ],
             technology: ["ReactJS", "Tailwind CSS", "Express"],
